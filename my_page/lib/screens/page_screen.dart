@@ -7,11 +7,11 @@ class PageScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Իմ էջը"),
+        title: const Text('Իմ էջը'),
       ),
       body: const Center(
-        child: Text("«Բարև, ես Դավիթն եմ»",
-        style: TextStyle(
+        child: const Text('«Բարև, ես Դավիթն եմ»',
+        style: const TextStyle(
           fontSize: 24,
         ),
         ),
