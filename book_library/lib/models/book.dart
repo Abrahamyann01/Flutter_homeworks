@@ -25,8 +25,8 @@ class Book {
   final int id;
   final String title;
   final String author;
-  final Genre genre;
 
+  final Genre genre;
   bool isRead;
   int rating;
 
@@ -34,7 +34,7 @@ class Book {
     required this.id,
     required this.title,
     required this.author,
-    required this.genre,
+    this.genre = Genre.novel,
     this.isRead = false,
     this.rating = 0,
   });
